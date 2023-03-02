@@ -1,0 +1,30 @@
+[
+        {
+            "id":1,
+            "nombre":"Tazas Personalizadas",
+            "imagen":"../imagenes/taza-neon-goku.jpg",
+            "precio":"20.00"     
+
+        },
+        {
+            "id":2,
+            "nombre":"Llaveros de Resina",
+            "imagen":"../imagenes/letra-M-micky.jpg",
+            "precio":"20.00"     
+
+        },
+        {
+            "id":3,
+            "nombre":"Llaveros de Hilo",
+            "imagen":"../imagenes/pulsera-hilo-rojo.jpg",
+            "precio":"20.00" 
+
+        },
+        {
+            "id":4,
+            "nombre":"Case Personalizados",
+            "imagen":"../imagenes/case-personalizado.jpg",
+            "precio":"20.00"
+
+        }
+]

@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e6dee7;
+    font-family:"Anybody";
+}
+
+/* header{
+    height: 70px;
+} */
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px grey;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px 0 30px;
+}
+
+.contenedor-subtitulos{
+    display: flex;
+    margin: 0;
+    
+}
+.titulo{
+    font-size: 20px;
+}
+.titulo p{
+    margin: 0;
+}
+
+.contenedor-subtitulos li{
+   list-style: none;
+   padding-right: 20px;
+}
+
+/*CSS CARRITO*/
+.submenu {
+    position: relative;
+    left: 750px;
+   
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+   
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    overflow-y:scroll;
+    height:100px;
+   
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.whatsapp{
+	position: fixed;
+	top: 85%;
+	right: 1%;
+}
